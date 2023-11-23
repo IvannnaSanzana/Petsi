@@ -7,10 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.Firebase;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MenuActivity2 extends AppCompatActivity {
 
     Button btn_masc;
     Button btn_map;
+    Button btn_cierra;
+    FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +23,7 @@ public class MenuActivity2 extends AppCompatActivity {
 
         btn_masc = findViewById(R.id.btn_mascota);
         btn_map = findViewById(R.id.btn_mapa);
+        btn_cierra= findViewById(R.id.btn_cerrarSesion);
 
         btn_masc.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +39,13 @@ public class MenuActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btn_cierra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAuth.signOut();
 
+            }
+        });
 
     }
 }

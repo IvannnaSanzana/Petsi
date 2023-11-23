@@ -71,6 +71,7 @@
                     android:background="@color/Blur"
                     android:hint="Correo Electrónico"
                     android:inputType="textEmailAddress"
+                    android:textColor="@color/DarkBlue"
                     android:textColorHint="@color/DarkBlue" />
 
             </RelativeLayout>
@@ -95,6 +96,7 @@
                     android:background="@color/Blur"
                     android:hint="Contraseña"
                     android:inputType="textPassword"
+                    android:textColor="@color/DarkBlue"
                     android:textColorHint="@color/DarkBlue" />
             </RelativeLayout>
         </LinearLayout>
