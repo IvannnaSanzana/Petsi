@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="PetscopeDarker">#9413E4</color>
+    <color name="PetscopeDark">#B032FF</color>
+    <color name="PetscopeLight">#FA8DF8</color>
+    <color name="DarkP">#542C96</color>
+    <color name="DarkBlue">#212747</color>
+    <color name="Blur">#568DBEFA</color>
+</resources>
